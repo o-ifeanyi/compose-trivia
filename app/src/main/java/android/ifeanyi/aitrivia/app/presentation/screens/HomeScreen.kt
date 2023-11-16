@@ -8,7 +8,7 @@ import androidx.navigation.NavHostController
 
 @Composable
 fun HomeScreen(controller: NavHostController) {
-    Button(onClick = { controller.navigate(AppScreens.TriviaScreen.name) }) {
+    Button(onClick = { controller.navigate(AppScreens.PreTriviaScreen.name) }) {
         Text(text = "Start Trivia")
     }
 }
